@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 function ProjectsView (props){
     const overClassName = props.overClassName;
@@ -9,18 +10,19 @@ function ProjectsView (props){
 
     return (
         <div  className={overClassName}>
-    <Container>
-        
-      <Row>
-        <Col className={underClassName}>
-            App Prototypes
-        </Col>
-        
-        <Col className={underClassName}>
-            Physical Projects
-        </Col>
-      </Row>
-    </Container>
+            <Container>
+                
+            <Row>
+                <Col className={underClassName}>
+                    <Image src="../pictures/awyeah.PNG" thumbnail />
+                    App Prototypes
+                </Col>
+                
+                <Col className={underClassName}>
+                    Physical Projects
+                </Col>
+            </Row>
+            </Container>
         </div>
     );
 }
