@@ -2,6 +2,7 @@
 import './App.css';
 //import TestPresenter from "./presenter/TestPresenter";
 import NavigationPresenter from './presenter/NavigationPresenter';
+import ProjectsHeaderPresenter from './presenter/ProjectsHeaderPresenter.jsx';
 import ProjectsPresenter from './presenter/ProjectsPresenter.jsx';
 import ContactPresenter from './presenter/ContactPresenter.jsx';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ function App() {
     <div>
       <NavigationPresenter />
       <Show hash="#projects">
+        <ProjectsHeaderPresenter />
         <ProjectsPresenter />
       </Show>
       <Show hash="#contact">

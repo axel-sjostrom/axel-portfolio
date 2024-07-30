@@ -21,7 +21,30 @@ body {
 }
 
 .App-project-under {
+  background-color: #fffbec;
   color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
+}
+
+.App-project-thumbnail-image {
+  width:85%;
+}
+
+.App-project-thumbnail-header-left {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  text-align: right;
+}
+
+.App-project-thumbnail-header-right {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  text-align: left;
 }
 
 .App-contact{

@@ -1,11 +1,15 @@
 import React from "react";
-import ProjectsView from "../view/ProjectsView";
+import AppPrototypesView from "../view/AppPrototypesView";
+import PhysicalProjectsView from "../view/PhysicalProjectsView";
 
-function ProjectsPresenter(props){
+function ProjectsPresenter (props){
     return(
-        <ProjectsView 
-        overClassName={"App-project-over"}
-        projectStyleName={"App-project-under"}/>
+        <div>
+            <AppPrototypesView 
+            
+            />
+            <PhysicalProjectsView />
+        </div>
     )
 }
 
