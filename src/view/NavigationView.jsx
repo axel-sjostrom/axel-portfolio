@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-//länkarna ska hända med "show", fixa senare.
 function NavigationView(props){
 
     return (

@@ -4,9 +4,9 @@ import NavigationView from "../view/NavigationView";
 function NavigationPresenter(props){
     return (
         <NavigationView 
-            clickedMyName={()=>{window.location.hash="#projects";}}
-            clickedAbout={()=>{window.location.hash="#about";}}            
+            clickedMyName={()=>{window.location.hash="#mainpage";}}     
             clickedContact={()=>{ window.location.hash="#contact";}}
+            clickedAbout={()=>{window.location.hash="#about";}}       
         
         />
     )

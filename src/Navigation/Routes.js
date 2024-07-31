@@ -6,7 +6,7 @@ function initRoutes() {
 //            knownRoute => window.location.hash === knownRoute
 //        )
 //    )
-    window.location.hash = "#projects";    
+    window.location.hash = "#mainpage";    
 }
 
 export default initRoutes;
