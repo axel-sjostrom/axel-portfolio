@@ -18,6 +18,9 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
+  
+  border-style: solid;
 }
 
 .App-project-under {
@@ -29,6 +32,9 @@ body {
   align-items: center;
   justify-content: start;
   text-align: start;
+
+  
+  border-style: solid;
 }
 
 .App-project-thumbnail-image {
@@ -39,12 +45,18 @@ body {
   margin-top: 50%;
   margin-bottom: 50%;
   text-align: right;
+
+  
+  border-style: solid;
 }
 
 .App-project-thumbnail-header-right {
   margin-top: 50%;
   margin-bottom: 50%;
   text-align: left;
+
+  
+  border-style: solid;
 }
 
 .App-contact{

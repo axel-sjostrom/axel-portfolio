@@ -4,7 +4,8 @@ import AppPrototypesView from "../view/AppPrototypesView";
 function AppPrototypesPresenter (props){
     return(
         <div>
-            <AppPrototypesView />
+            <AppPrototypesView 
+            />
         </div>
     )
 }

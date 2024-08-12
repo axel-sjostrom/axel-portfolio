@@ -20,7 +20,7 @@ function App() {
       <Show hash="#apps">
         <AppPrototypesPresenter />
       </Show>
-      <Show hash="physicals">
+      <Show hash="#physicals">
         <PhysicalProjectsPresenter />
       </Show>
       <Show hash="#contact">
