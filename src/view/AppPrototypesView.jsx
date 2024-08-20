@@ -42,7 +42,7 @@ function AppPrototypesView(props){
                 <Row xs={1} md={2} style={{"margin-top":"100px"}}>
                     <Col style={{}}>
                         <Nav.Link onClick={()=>{openShow1();}}>
-                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/master/src/pictures/awyeah.PNG"/>                        
+                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/spotifythumbnail.png"/>                        
                         </Nav.Link>
                     </Col>
 
