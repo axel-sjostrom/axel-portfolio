@@ -39,7 +39,7 @@ function AppPrototypesView(props){
 
                 {//Project 1 start
                 }
-                <Row xs={1} md={2} style={{"margin-top":"100px"}}>
+                <Row xs={1} md={2} style={{"margin-top":"100px" }}>
                     <Col style={{}}>
                         <Nav.Link onClick={()=>{openShow1();}}>
                             <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/spotifythumbnail.png"/>                        
@@ -47,7 +47,7 @@ function AppPrototypesView(props){
                     </Col>
 
                     <Col style={{}}>
-                        <h1 className="App-project-thumbnail-header-right">Spotify AI Sessions Challenge</h1>
+                        <h1 className="App-project-thumbnail-header-right">Spotify Discovery Challenge</h1>
                     </Col>
                 </Row>
                 <Collapse in={show1}>
@@ -69,7 +69,7 @@ function AppPrototypesView(props){
 
                     <Col>
                         <Nav.Link onClick={()=>{openShow2();}}>
-                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/master/src/pictures/awyeah.PNG"/>
+                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/bankappthumbnail.png"/>
                         </Nav.Link>.
                     </Col>
                 </Row>
@@ -94,7 +94,7 @@ function AppPrototypesView(props){
                     </Col>
 
                     <Col style={{}}>
-                        <h1 className="App-project-thumbnail-header-right">Tinder Consent Challenge</h1>
+                        <h1 className="App-project-thumbnail-header-right">Tinder Nudging Challenge</h1>
                     </Col>
                 </Row>
 

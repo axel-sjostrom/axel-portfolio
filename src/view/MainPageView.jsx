@@ -23,7 +23,7 @@ function MainPageView (props){
                 <Navbar>
                     <Col>
                         <Nav.Link onClick={()=>{props.clickedApps();}} >
-                            <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/spotifythumbnail.png" /> 
+                            <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/bankappthumbnail.png" /> 
                             <h2>App Prototypes</h2>
                         </Nav.Link>
                     </Col>
