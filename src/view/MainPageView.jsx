@@ -17,21 +17,21 @@ function MainPageView (props){
 
     return (
         <div  className={overClassName}>
-            <h1 style={{"text-align":"left"}}>UX and Interaction Design from Stockholm, Sweden.</h1>
+            <h1 className="inter-h1" style={{"text-align":"left"}}>UX and Interaction Design from Stockholm, Sweden.</h1>
             <Container>
                 <Row>
                 <Navbar>
                     <Col>
                         <Nav.Link onClick={()=>{props.clickedApps();}} >
                             <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/master/src/pictures/awyeah.PNG" thumbnail /> 
-                            App Prototypes
+                            <h2>App Prototypes</h2>
                         </Nav.Link>
                     </Col>
                     
                     <Col>
                         <Nav.Link onClick={()=>{props.clickedPhysicals();}}>
                             <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/master/src/pictures/awyeah.PNG" thumbnail /> 
-                            Physical Projects
+                            <h2>Physical Projects</h2>
                         </Nav.Link>
                     </Col>
                     </Navbar>
