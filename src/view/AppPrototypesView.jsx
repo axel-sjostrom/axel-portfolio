@@ -31,9 +31,9 @@ function AppPrototypesView(props){
                 {
                     //Just exploring how this should work
                 } 
-                <Row style={{}}>
-                    <h1 style={{"text-align":"center"}}>App Prototypes</h1>
-                    <p>During my master's program in Interactive Media Technology at KTH Royal Institute of Technology, I had the opportunity to take the course User Experience Design and Evaluation. As a group project together with three other students, we created designs in figma according to challenging design briefs given by external industry professionals. The best of those projects are presented here.</p>
+                <Row style={{"margin-top":"100px"}}>
+                    <h1 className="inter-h1" style={{"text-align":"center"}}>App Prototypes</h1>
+                    <p >During my master's program in Interactive Media Technology at KTH Royal Institute of Technology, I had the opportunity to take the course User Experience Design and Evaluation. As a group project together with three other students, prototypes were developed in figma according to challenging design briefs given by external industry professionals. The best of those projects are presented here.</p>
                 </Row>
 
 
@@ -56,7 +56,7 @@ function AppPrototypesView(props){
                             <div className="App-project-close" style={{"border-color":"black", "text-align": "center"}}>
                                         <Nav.Link  onClick={()=>{closeShow1();}}><h1>X</h1></Nav.Link>                                        
                             </div>
-                            <img className="App-project-content" src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/SpotifyChallenge.png"></img>
+                            <img className="App-project-content" style={{"border-color":"#1ed760"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/SpotifyChallengeContent.png"></img>
                         </div>
                     </Row>      
                 </Collapse>
@@ -79,7 +79,7 @@ function AppPrototypesView(props){
                             <div className="App-project-close" style={{"border-color": "white"}}>                      
                                 <Nav.Link onClick={()=>{closeShow2();}}><h1 style={{"color":"white", "text-align": "center"}}>X</h1></Nav.Link>
                             </div> 
-                            <img className="App-project-content"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/BankAppChallenge.png"></img>
+                            <img className="App-project-content" style={{"border-color":"#2c64e3"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/BankAppChallengeContent.png"></img>
                         </div>
                     </Row>
                 </Collapse>
@@ -104,7 +104,7 @@ function AppPrototypesView(props){
                             <div className="App-project-close" style={{"border-color": "white"}}>                      
                                 <Nav.Link onClick={()=>{closeShow3();}}><h1 style={{"color":"white", "text-align": "center"}}>X</h1></Nav.Link>
                                 </div>
-                            <img className="App-project-content"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/TinderChallenge.png"></img>
+                            <img className="App-project-content" style={{"border-color":"#ea457d"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/TinderChallengeContent.png "></img>
 
                         </div>
                     </Row>

@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter-h1 {
+h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
 
-.inter-h2{
+h2{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
 
-.inter-p{
+p{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -89,12 +89,12 @@ body {
   margin-right: auto;
   min-width: auto;
   border:solid;
-  
+
 }
 
 .App-project-close{
   position: absolute; 
-  top: 8px; 
+  top: 40px; 
   right: 80px;
   border: solid;
   width: 60px;
