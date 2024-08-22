@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Collapse from 'react-bootstrap/Collapse';
 import { Nav } from "react-bootstrap";
+import testPresenter from "../presenter/TestPresenter.jsx";
 
 function PhysicalProjectsView(props){
     const [show1, setShow1] = useState(false);
@@ -33,7 +34,9 @@ function PhysicalProjectsView(props){
                     <p >During my master's program in Interactive Media Technology at KTH Royal Institute of Technology, I had the opportunity to interaction design outside of app development. These following projects are more rooted in the physical world and show an understanding in finding and solving problems.</p>
                     </Col>
                 </Row>
-
+{
+    //topp höger botten vänster
+}
 
                 {//Project 1 start
                 }
@@ -51,11 +54,26 @@ function PhysicalProjectsView(props){
                 <Collapse in={show1}>
                     <Row>
                         <div style={{"position":"relative"}}>    
-                            <div className="App-project-close" style={{"border-color":"black", "text-align": "center"}}>
-                                        <Nav.Link  onClick={()=>{closeShow1();}}><h1>X</h1></Nav.Link>                                        
+                            <div className="App-project-close" style={{"border-color":"white", "text-align": "center"}}>
+                                        <Nav.Link  onClick={()=>{closeShow1();}}><h1 style={{"color":"white"}}>X</h1></Nav.Link>                                        
                             </div>
-                            {//<img className="App-project-content" style={{"border-color":"#1ed760"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/SpotifyChallengeContent.png"></img>
-                            } 
+                            <div style={{
+                                  "position": "absolute", 
+                                  "top": "40px", 
+                                  "right": "80px",
+                                  "border": "solid",
+                                  "width": "60px",
+                                  "height": "60px"
+
+                            }}>
+                                <video controls>
+                                    <source src="../videos/trappedDemo.webm" type="video/webm"></source>
+                                </video>
+                            </div>
+                            <img className="App-project-content" style={{"border-style": "solid solid none solid"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/firstHalfTrapped.png"></img>
+                            <img className="App-project-content" style={{"width":"100%", "border-style": "none solid none solid"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/videoSlideTrapped.png"></img>
+                            <img className="App-project-content" style={{"border-style": "none solid solid solid"}}  src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/secondHalfTrapped.png"></img>
+                             
                         </div>
                     </Row>      
                 </Collapse>
