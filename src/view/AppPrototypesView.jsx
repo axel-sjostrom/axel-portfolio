@@ -32,8 +32,14 @@ function AppPrototypesView(props){
                     //Just exploring how this should work
                 } 
                 <Row style={{"margin-top":"100px"}}>
+                    <Col>
                     <h1 className="inter-h1" style={{"text-align":"center"}}>App Prototypes</h1>
                     <p >During my master's program in Interactive Media Technology at KTH Royal Institute of Technology, I had the opportunity to take the course User Experience Design and Evaluation. As a group project together with three other students, prototypes were developed in figma according to challenging design briefs given by external industry professionals. The best of those projects are presented here.</p>
+                    </Col>
+                    <Col>
+                    <img src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/QRforappprototypes.png"></img>
+                    &lt;-- Check them out live on figma!
+                    </Col>
                 </Row>
 
 
