@@ -59,16 +59,11 @@ function PhysicalProjectsView(props){
                             </div>
                             <div style={{
                                   "position": "absolute", 
-                                  "top": "40px", 
-                                  "right": "80px",
-                                  "border": "solid",
-                                  "width": "60px",
-                                  "height": "60px"
+                                  "top": "6024px", 
+                                  "left": "566px"
 
                             }}>
-                                <video controls>
-                                    <source src="../videos/trappedDemo.webm" type="video/webm"></source>
-                                </video>
+                                <iframe width="815" height="458" src="https://www.youtube.com/embed/2GU2fbKtsWw?si=HGXnuJOfcQ5bAgCO&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                             <img className="App-project-content" style={{"border-style": "solid solid none solid"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/firstHalfTrapped.png"></img>
                             <img className="App-project-content" style={{"width":"100%", "border-style": "none solid none solid"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/videoSlideTrapped.png"></img>
