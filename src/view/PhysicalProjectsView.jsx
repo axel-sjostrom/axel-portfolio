@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Collapse from 'react-bootstrap/Collapse';
 import { Nav } from "react-bootstrap";
-import testPresenter from "../presenter/TestPresenter.jsx";
 
 function PhysicalProjectsView(props){
     const [show1, setShow1] = useState(false);
@@ -43,7 +42,7 @@ function PhysicalProjectsView(props){
                 <Row xs={1} md={2} style={{"margin-top":"100px" }}>
                     <Col style={{}}>
                         <Nav.Link onClick={()=>{openShow1();}}>
-                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/awyeah.PNG"/>                        
+                            <Image className="App-project-thumbnail-image" src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/tobiiThumbnail.png" alt="Source: https://gaming.tobii.com/onboarding/how-to-tobii-eye-tracker-4c/"/>                        
                         </Nav.Link>
                     </Col>
 
@@ -76,7 +75,7 @@ function PhysicalProjectsView(props){
                 }
                 <Row xs={1} md={2} style={{"margin-top":"100px"}}>
                     <Col>
-                        <h1 className="App-project-thumbnail-header-left">Project 2</h1>
+                        <h1 className="App-project-thumbnail-header-left">Haptic Navigation Vest</h1>
                     </Col>
 
                     <Col>
@@ -91,8 +90,14 @@ function PhysicalProjectsView(props){
                             <div className="App-project-close" style={{"border-color": "white"}}>                      
                                 <Nav.Link onClick={()=>{closeShow2();}}><h1 style={{"color":"white", "text-align": "center"}}>X</h1></Nav.Link>
                             </div> 
-                            {//<img className="App-project-content" style={{"border-color":"#2c64e3"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/BankAppChallengeContent.png"></img>
-                            }
+                            <img className="App-project-content" style={{"border-color":"#2c64e3"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/BankAppChallengeContent.png"></img>
+                            <div style={{
+                                  "position": "absolute", 
+                                  "top": "0px", 
+                                  "left": "0px"
+
+                            }}>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CQsw521wo9w?si=7buMTb0W_1cB-2W5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
                         </div>
                     </Row>
                 </Collapse>

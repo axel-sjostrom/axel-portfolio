@@ -30,7 +30,7 @@ function MainPageView (props){
                     
                     <Col>
                         <Nav.Link onClick={()=>{props.clickedPhysicals();}}>
-                            <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/master/src/pictures/awyeah.PNG" thumbnail /> 
+                            <Image src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/tobiiThumbnail.png" alt="Source: https://gaming.tobii.com/onboarding/how-to-tobii-eye-tracker-4c/"/> 
                             <h2>Physical Projects</h2>
                         </Nav.Link>
                     </Col>
