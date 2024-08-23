@@ -33,9 +33,6 @@ function PhysicalProjectsView(props){
                     <p >During my master's program in Interactive Media Technology at KTH Royal Institute of Technology, I had the opportunity to interaction design outside of app development. These following projects are more rooted in the physical world and show an understanding in finding and solving problems.</p>
                     </Col>
                 </Row>
-{
-    //topp höger botten vänster
-}
 
                 {//Project 1 start
                 }
@@ -80,7 +77,7 @@ function PhysicalProjectsView(props){
 
                     <Col>
                         <Nav.Link onClick={()=>{openShow2();}}>
-                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/awyeah.PNG"/>
+                            <Image className="App-project-thumbnail-image" style={{"border":"solid", "borderRadius":"15px"}} src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioThumbnails/hapticVestThumbnail.PNG"/>
                         </Nav.Link>
                     </Col>
                 </Row>
@@ -104,31 +101,8 @@ function PhysicalProjectsView(props){
                     </Row>
                 </Collapse>
 
-                {//Project 2 end, Project 3 start
+                {//Project 2 end
                 }
-                <Row xs={1} md={2} style={{"margin-top":"100px"}}>
-                    <Col style={{}}>
-                        <Nav.Link onClick={()=>{openShow3();}}>
-                            <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/awyeah.PNG"/>                        
-                        </Nav.Link>
-                    </Col>
-
-                    <Col style={{}}>
-                        <h1 className="App-project-thumbnail-header-right">Project 3</h1>
-                    </Col>
-                </Row>
-
-                <Collapse in={show3} style={{}}>
-                    <Row>
-                        <div style={{"position":"relative"}}> 
-                            <div className="App-project-close" style={{"border-color": "white"}}>                      
-                                <Nav.Link onClick={()=>{closeShow3();}}><h1 style={{"color":"white", "text-align": "center"}}>X</h1></Nav.Link>
-                                </div>
-                            {//<img className="App-project-content" style={{"border-color":"#ea457d"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/TinderChallengeContent.png "></img>
-                            }
-                        </div>
-                    </Row>
-                </Collapse>
             </Container>
         </div>
     )
