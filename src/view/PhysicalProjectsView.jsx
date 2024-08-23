@@ -81,23 +81,25 @@ function PhysicalProjectsView(props){
                     <Col>
                         <Nav.Link onClick={()=>{openShow2();}}>
                             <Image className="App-project-thumbnail-image"src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/awyeah.PNG"/>
-                        </Nav.Link>.
+                        </Nav.Link>
                     </Col>
                 </Row>
                 <Collapse in={show2}>
                     <Row>
                         <div style={{"position":"relative"}}> 
-                            <div className="App-project-close" style={{"border-color": "white"}}>                      
-                                <Nav.Link onClick={()=>{closeShow2();}}><h1 style={{"color":"white", "text-align": "center"}}>X</h1></Nav.Link>
+                            <div className="App-project-close" style={{"border-color": "black", "right":"150px"}}>                      
+                                <Nav.Link onClick={()=>{closeShow2();}}><h1 style={{"color":"black", "text-align": "center"}}>X</h1></Nav.Link>
                             </div> 
-                            <img className="App-project-content" style={{"border-color":"#2c64e3"}}src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/BankAppChallengeContent.png"></img>
                             <div style={{
                                   "position": "absolute", 
-                                  "top": "0px", 
-                                  "left": "0px"
+                                  "top": "2420px", 
+                                  "right": "80px"
 
                             }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CQsw521wo9w?si=7buMTb0W_1cB-2W5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                            </div>
+                            <iframe width="177" height="315" src="https://www.youtube.com/embed/CQsw521wo9w?si=7buMTb0W_1cB-2W5&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>                            
+                            </div>
+                            <img className="App-project-content" src="https://raw.githubusercontent.com/axel-sjostrom/axel-portfolio/nya-projects/src/pictures/PortfolioPNGs/hapticVestContent.png"></img>
+
                         </div>
                     </Row>
                 </Collapse>
