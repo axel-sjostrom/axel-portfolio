@@ -9,14 +9,13 @@ function NavigationView(props){
     return (
         <Navbar className="App-header">
           <Container>
-            <Nav.Link onClick={()=>{props.clickedMyName();}}>It's Axel Sjöström.</Nav.Link>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link onClick={()=>{props.clickedContact();}}>Contact</Nav.Link>
-                <Nav.Link onClick={()=>{props.clickedAbout();}}>About Me</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
+          
+          <Nav className="me-auto" >
+              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Nav.Link onClick={()=>{props.clickedMyName();}}><h4>It's Axel Sjöström.</h4></Nav.Link>
+              <Nav.Link onClick={()=>{props.clickedContact();}}><h4>Contact</h4></Nav.Link>
+              <Nav.Link onClick={()=>{props.clickedAbout();}}><h4>About Me</h4></Nav.Link>
+          </Nav>
           </Container>
         </Navbar>
       );
